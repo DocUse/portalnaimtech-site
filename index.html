@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>NaimTech Recruiter Portal</title>
+    <style>
+      :root {
+        --card: #ffffff;
+        --text: #1f2937;
+        --muted: #6b7280;
+        --line: #dbe3ee;
+        --brand: #2563eb;
+        --brand-dark: #1d4ed8;
+      }
+
+      * { box-sizing: border-box; }
+
+      body {
+        margin: 0;
+        font: 16px/1.6 Arial, sans-serif;
+        color: var(--text);
+      }
+
+      .wrap {
+        max-width: 900px;
+        margin: 0 auto;
+        padding: 32px 20px 48px;
+      }
+
+      .card {
+        background: var(--card);
+        border: 1px solid var(--line);
+        border-radius: 18px;
+        padding: 28px;
+        box-shadow: 0 4px 20px rgba(15, 23, 42, 0.04);
+      }
+
+      h1, h2 {
+        margin: 0 0 16px;
+        line-height: 1.25;
+      }
+
+      h1 {
+        font-size: 34px;
+      }
+
+      h2 {
+        font-size: 22px;
+        margin-top: 28px;
+      }
+
+      p {
+        margin: 0 0 14px;
+      }
+
+      ul {
+        margin: 0 0 18px 20px;
+      }
+
+      .eyebrow {
+        display: inline-block;
+        margin-bottom: 12px;
+        color: var(--brand);
+        font-weight: 700;
+        letter-spacing: 0.02em;
+        text-transform: uppercase;
+        font-size: 13px;
+      }
+
+      .muted {
+        color: var(--muted);
+      }
+
+      .nav {
+        display: flex;
+        gap: 10px;
+        flex-wrap: wrap;
+        margin-top: 24px;
+      }
+
+      .nav a {
+        display: inline-block;
+        padding: 10px 14px;
+        border-radius: 10px;
+        text-decoration: none;
+        background: var(--brand);
+        color: #fff;
+        font-weight: 700;
+      }
+
+      .nav a:hover {
+        background: var(--brand-dark);
+      }
+
+    </style>
+  </head>
+  <body>
+    <div class="wrap">
+      <div class="card">
+        <div class="eyebrow">NaimTech</div>
+        <h1>NaimTech Recruiter Portal</h1>
+        <p>
+          Это внутреннее веб-приложение для сотрудников, которым предоставлен
+          доступ к личному кабинету рекрутера.
+        </p>
+        <p>
+          Приложение показывает персональные рабочие данные сотрудника:
+          текущие кейсы, дисциплинарные баллы, зоны и краткую сводку по его
+          рабочим показателям.
+        </p>
+
+        <h2>Для чего используется приложение</h2>
+        <p>
+          Приложение нужно, чтобы сотрудник мог открыть свой личный кабинет и
+          увидеть только свои данные, связанные с рабочими кейсами и
+          дисциплиной.
+        </p>
+
+        <h2>Кто может получить доступ</h2>
+        <p>
+          Доступ открывается не всем автоматически. Администратор заранее
+          вносит Google email сотрудника в служебную таблицу и включает доступ
+          к порталу.
+        </p>
+
+        <h2>Какие данные используются</h2>
+        <ul>
+          <li>адрес Google email для определения личности пользователя;</li>
+          <li>данные из служебной Google Таблицы для отображения личного кабинета;</li>
+          <li>служебные настройки приложения.</li>
+        </ul>
+
+        <h2>Контакт</h2>
+        <p>
+          Если у вас есть вопросы по доступу или работе приложения, напишите на
+          <a href="mailto:skeepowski@gmail.com">skeepowski@gmail.com</a>.
+        </p>
+
+        <p class="muted">
+          Последнее обновление: 01.05.2026
+        </p>
+        <div class="nav">
+          <a href="privacy-policy.html">Privacy Policy</a>
+          <a href="terms-of-service.html">Terms of Service</a>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
