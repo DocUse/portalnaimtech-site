@@ -1,0 +1,9 @@
+{
+  "name": "portalnaimtech-site",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Static verification site for NaimTech Recruiter Portal",
+  "scripts": {
+    "build": "mkdir -p dist && cp *.html dist/"
+  }
+}
